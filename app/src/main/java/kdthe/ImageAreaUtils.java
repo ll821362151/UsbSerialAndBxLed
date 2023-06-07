@@ -78,9 +78,14 @@ public class ImageAreaUtils {
         screen.turnOff();
     }
 
+
+    /**
+     * 直接下发图片，图片的尺寸要与LED的宽高相对应
+     * demo 里面有一张test02.png 图片；因我的LED板是竖着安装，如何是文字转图片需要旋转角度，图片根据实际情况来定
+     */
     public static String image(Context context) {
         // 获取drawable图片
-        android.graphics.drawable.Drawable drawable = context.getResources().getDrawable(R.drawable.ic_launcher);
+        android.graphics.drawable.Drawable drawable = context.getResources().getDrawable(R.drawable.ic_launcher, null);
         // 将Drawable转换为Bitmap
         Bitmap bitmap = ((BitmapDrawable) drawable).getBitmap();
 
