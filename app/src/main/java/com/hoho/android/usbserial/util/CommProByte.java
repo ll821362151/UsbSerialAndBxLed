@@ -8,7 +8,9 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
-
+/**
+ * 通用处理类
+ */
 public class CommProByte {
 
     private static void writeCurrTime() {
