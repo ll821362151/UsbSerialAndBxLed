@@ -113,9 +113,12 @@ public class MainActivity extends AppCompatActivity implements FragmentManager.O
         try {
             port.open(connection);
             port.setParameters(115200, 8, UsbSerialPort.STOPBITS_1, UsbSerialPort.PARITY_NONE);
-//            port.write(onChangeOutdoorAdPage(Byte.parseByte("3")), WRITE_WAIT_MILLIS);
-            send("hello world usb to serial", port);
 
+            /**
+             * 将Android开发板用自定义的连接线与电脑端的串口连接好
+             * 通过电脑端的串口助手，结合Android studio的日志来确定是否转换成功
+             */
+            send("hello world usb to serial", port);
             poolExecutor.scheduleAtFixedRate(new Runnable() {
                 @Override
                 public void run() {

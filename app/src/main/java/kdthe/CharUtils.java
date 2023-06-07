@@ -1,11 +1,6 @@
 package kdthe;
 
-/**
- * @author liulang
- * @date 2023-06-02 14:57
- * @company 湖南科大天河通信股份有限公司
- * @description
- **/
+
 
 public class CharUtils {
     public static String toFullWidth(String text) {

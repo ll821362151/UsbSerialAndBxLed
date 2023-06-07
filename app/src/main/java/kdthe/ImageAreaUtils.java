@@ -22,7 +22,6 @@ import onbon.bx06.series.Bx6E;
 /**
  * @author liulang
  * @date 2023-06-01 15:12
- * @company 湖南科大天河通信股份有限公司
  * @description
  **/
 

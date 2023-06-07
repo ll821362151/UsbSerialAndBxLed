@@ -11,12 +11,6 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-/**
- * @author liulang
- * @date 2023-06-01 16:31
- * @company 湖南科大天河通信股份有限公司
- * @description
- **/
 
 public class Bx6E1Text2ImageUtils {
     public static String text2Image(String text) {

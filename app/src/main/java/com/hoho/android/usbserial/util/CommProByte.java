@@ -8,11 +8,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
-/**
- * 通用处理类
- *
- * @author 龙志坚
- */
+
 public class CommProByte {
 
     private static void writeCurrTime() {

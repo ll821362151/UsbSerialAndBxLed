@@ -13,7 +13,6 @@ import onbon.bx06.utils.TextBinary;
 /**
  * @author liulang
  * @date 2023-06-01 10:48
- * @company 湖南科大天河通信股份有限公司
  * @description
  **/
 

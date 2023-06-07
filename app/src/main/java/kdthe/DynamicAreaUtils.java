@@ -11,13 +11,6 @@ import onbon.bx06.cmd.dyn.DynamicBxAreaRule;
 import onbon.bx06.message.global.ACK;
 import onbon.bx06.series.Bx6E;
 
-/**
- * @author liulang
- * @date 2023-06-01 10:36
- * @company 湖南科大天河通信股份有限公司
- * @description
- **/
-
 public class DynamicAreaUtils {
     private final static String TAG = DynamicAreaUtils.class.getSimpleName();
     private static Bx6GScreenRS screen;

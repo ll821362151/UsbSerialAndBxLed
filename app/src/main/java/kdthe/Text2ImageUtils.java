@@ -16,7 +16,6 @@ import java.util.ArrayList;
 /**
  * @author liulang
  * @date 2023-06-01 17:07
- * @company 湖南科大天河通信股份有限公司
  * @description
  **/
 
